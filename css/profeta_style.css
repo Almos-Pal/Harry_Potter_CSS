@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'Magic School Two';
+    src: url('/Fonts/MagicSchoolTwo.ttf');
+  }
+  @font-face {
+    src: url('/Fonts/Slabo27px-Regular.ttf');
+    font-family: 'Slabo27px-Regular';
+  }
+  @font-face {
+    src: url('/Fonts/Anton-Regular.ttf');
+    font-family: 'Anton-Regular';
+  }
+  @font-face {
+    src: url('/Fonts/Sancreek-Regular.ttf');
+    font-family: 'Sancreek-Regular';
+  }
+  @font-face {
+    src: url('/Fonts/BreeSerif-Regular.ttf');
+    font-family: 'BreeSerif-Regular';
+  }
+  @font-face {
+    src: url('/Fonts/Almarai-ExtraBold.ttf');
+    font-family: 'Almarai-ExtraBold';
+  }
+  @font-face {
+    src: url('/Fonts/Volkhov-Bold.ttf');
+    font-family: 'Volkhov-Bold';
+  }
+body{
+    background-color: rgb(216, 209, 183); 
+}  
+.container{
+  display: grid;
+  width: 1200px;
+  height: auto;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  border: solid 2px black;
+}
+/*Neville*/
+.nev{
+  font-family:  Impact, fantasy;
+  text-transform: uppercase;
+  grid-column-start:1 ;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;  
+}
+.nev-space1{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 160%;
+  margin-top: 15px;
+  font-size: 37px;
+  letter-spacing: 2px;
+  }
+  .nev-space2{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 110%;
+    font-size: 36px;
+    letter-spacing:1px;
+    }
+.nev-space3{
+display: flex;
+flex-wrap: wrap;
+font-size: 24px;
+line-height: 160%;
+letter-spacing: 3px;
+}
+.name{
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+.suveg{
+  float: left;
+  
+}
+.nevimg{
+ float:right;
+  width: 100px;
+  height: 116px;
+  position: relative;
+  top: 28px;
+  
+}
+.nevgrid{
+  grid-column-start:5 ;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;  
+}
+.nevgrid img
+/*DAILY PROPHET*/
+.daily{
+  grid-column-start:7 ;
+  grid-column-end: 19;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.proh{
+  height: 150px;
+  width: 600px;
+}
+/*MEMORIAL PLANNED EXCLUSIVE*/
+.mem{
+  grid-column-start:19 ;
+  grid-column-end: 25;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  text-align: center; 
+  font-family:  Impact, fantasy;
+  text-transform: uppercase;
+}
+.span1{
+  display: flex ;
+  flex-wrap: wrap;
+font-size: 62px;
+width: 210px;
+line-height: 90%;
+letter-spacing: 0px;
+font-weight: bold ;
+font-family: 'Slabo27px-Regular';
+}
+.span2{
+font-size: 62px;
+letter-spacing: 0px;
+line-height: 70%;
+font-weight: bold ;
+font-family: 'Slabo27px-Regular';
+}
+.span3{
+  font-size: 40px;
+  color: rgb(216, 209, 183 );
+  background-color: #000000;
+  letter-spacing: 10px;
+  line-height: 120%;
+}
+/*HARRY POTTER*/
+.harry{
+  color: rgb(216, 209, 183 );
+  grid-column-start:1 ;
+  grid-column-end: 10;
+  grid-row-start: 4;
+  grid-row-end: 9;
+  font-size: 150px;
+  display: flex ;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #000000;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: Impact, fantasy;
+  line-height: 70%;
+}
+.harry span{
+  letter-spacing: 14px;
+  
+}
+/*DEFEAT*/
+.def{
+  grid-column-start:10 ;
+  grid-column-end: 20;
+  grid-row-start: 4;
+  grid-row-end: 9;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-family: Impact, fantasy; 
+  float: left;
+  font-size: 62px;
+}
+#harrygrid{
+  
+  grid-column-start:15 ;
+  grid-column-end: 20;
+  grid-row-start: 4;
+  grid-row-end: 9;
+  
+}
+#harrygrid img{
+  width: 90%;
+  height: 100%;
+  float: right;
+}
+
+#d1{
+  display: flex;
+  
+  line-height: 95%;
+  justify-content: center;
+  letter-spacing:4px;
+}
+#d2{
+  display: flex;
+  word-spacing: 20px;
+  letter-spacing: 12px;
+  font-size: 62px;
+  line-height: 100%;
+  
+}
+.def-space{
+  word-spacing: 20px;
+  letter-spacing: 12px;
+  font-size: 62px;
+}
+/*PAGE 5*/
+.pagefive{
+ letter-spacing: -1px;
+  grid-column-start:20;
+  grid-column-end: 25;
+  grid-row-start: 4;
+  grid-row-end: 10;
+  margin-right: 30px;
+}
+
+.pagefive img{
+  float: left;
+  clear: both;
+  
+}
+.finger{
+  width: 100px;
+}
+#pa1{
+  font-family: 'Anton-Regular';
+  font-size: 45px;
+  line-height: 120%;
+  display: flex;
+  flex: wrap;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 51px;
+}
+
+/*CALENDAR*/
+.calendar{
+  grid-column-start:1;
+  grid-column-end: 6;
+  grid-row-start: 9;
+  grid-row-end: 16;
+}
+.cal-span1{
+text-transform: uppercase;
+display: flex;
+flex-wrap: wrap;
+font-size: 28px;
+font-family: 'Volkhov-Bold';
+}
+.cal-span2{
+  text-transform: uppercase;
+  display: flex;
+flex-wrap: wrap;
+font-family:  Impact, fantasy;
+letter-spacing: 4px;
+font-size: 27px;
+line-height: 80%;
+text-indent: 1px;
+}
+.cal-span3{
+  text-transform: uppercase;
+  display: flex;
+flex-wrap: wrap;
+font-family: 'Volkhov-Bold';
+font-size: 28px;
+border-bottom: solid 3px #000000;
+text-indent: -4px;
+margin-left: 5px;
+}
+.cal-span4{
+  text-transform: uppercase;
+  display: flex;
+flex-wrap: wrap;
+font-family: 'Sancreek-Regular';
+letter-spacing: 4px;
+font-size: 27px;
+line-height: 80%;
+text-indent: 1px;
+text-indent: 10px;
+margin-top: 10px;
+}
+.cal-span5{
+  text-transform: uppercase;
+  display: flex;
+flex-wrap: wrap;
+font-family: 'Sancreek-Regular';
+letter-spacing: 4px;
+font-size: 23px;
+line-height: 80%;
+text-indent: 1px;
+text-indent: 5px;
+}
+.cal{
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+  padding: 0;
+}
+.cal-days{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-family: 'Sancreek-Regular';
+  font-size: 11px;
+  line-height: 80%;
+}
+.cal-numbers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  list-style: none;
+font-weight: bold;
+font-size: 22px;
+font-family: 'BreeSerif-Regular';
+}
+/*PITON*/
+.piton{
+  grid-column-start:6;
+  grid-column-end: 12;
+  grid-row-start: 9;
+  grid-row-end: 15;
+}
+.Piton{
+  height:300px;
+  width: 300px;
+}
+/*SEVERUS SNAPE*/
+.snape{
+  grid-column-start:12;
+  grid-column-end: 20;
+  grid-row-start: 9;
+  grid-row-end: 13;
+}
+.snape img{
+  float: left;
+  height: 100px;
+}
+.snape-span1{
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-family: 'Almarai-ExtraBold';
+  letter-spacing: -1px;
+  line-height: 80%;
+}
+.snape-span2{
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  font-family: 'Almarai-ExtraBold';
+  letter-spacing: 3px;
+  line-height: 100%;
+}
+.snape-span3{
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-family: 'Volkhov-Bold';
+  text-indent: -4px;
+  letter-spacing: 6px;
+  line-height: 80%;
+}
+/*ROXFORT*/
+.castle{
+  grid-column-start:20;
+  grid-column-end: 25;
+  grid-row-start: 10;
+  grid-row-end: 13;
+}
+.roxfort{
+  height:150px ;
+  width: 200px;
+}
+/*MINERVA*/
+.Mc{
+  grid-column-start:15;
+  grid-column-end: 24;
+  grid-row-start: 13;
+  grid-row-end: 15;
+  text-indent: 20px;
+  text-transform: uppercase;
+  font-size: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Slabo27px-Regular';
+  font-weight: bold ;
+  line-height: 80%;
+  letter-spacing: 4px;
+}
+.MC-2{
+  letter-spacing: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Sancreek-Regular';
+  line-height: 120%;
+  font-weight: normal ;
+}
+.MC-3{
+  letter-spacing: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50%;
+  font-family: 'BreeSerif-Regular';
+  font-size: 49px;
+  
+}
+.Mc-image{
+  
+  grid-column-start:12;
+  grid-column-end: 16;
+  grid-row-start: 13;
+  grid-row-end: 15;
+}
+.Mc-image img{
+  height: 100%;
+  width: 85%;
+}
+/*PAGE FOUR*/
+.pagefour{
+  grid-column-start:20;
+  grid-column-end: 25;
+  grid-row-start: 15;
+  grid-row-end: 16;
+  font-family: 'Anton-Regular';
+  font-size: 32px;
+  line-height: 140%;
+  text-transform: uppercase;
+ 
+}
+.pagefour-img{
+  grid-column-start:6;
+  grid-column-end: 18;
+  grid-row-start: 15;
+  grid-row-end: 16;
+}
+.pagefour-img img{
+  height: 100%;
+  width: 100%;
+}
+.pagefour-img2{
+  grid-column-start:18;
+  grid-column-end: 20;
+  grid-row-start: 15;
+  grid-row-end: 16;
+}
+.pagefour-img2 img{
+  height: 100%;
+  width: 100%;
+
+}
+
+
+/*P*/
+
+
+#p0{
+  margin: 0;
+  padding: 0;
+}
+#p1{
+  border-top: solid 3px #000000;
+  margin: 5px 0px 0px 5px;
+  padding:  5px 0px 0px 0px;
+}
+#p2{
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  line-height: 110%;
+  text-indent: -35px;
+}
+/*grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;*/
